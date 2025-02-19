@@ -323,7 +323,7 @@ defaults:
     values:
       layout: splash
       header:
-        image: "/assets/images/csm_Kalkkoegel-Panorama_Pietersteiner_web_4f99316b4b.jpg"
+        image: "/assets/images/web00035.jpg"
       author_profile: true
       read_time: true
       comments: # true
