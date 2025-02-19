@@ -318,9 +318,9 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
-      layout: single
+      layout: splash
       header:
         image: "/assets/images/csm_Kalkkoegel-Panorama_Pietersteiner_web_4f99316b4b.jpg"
       author_profile: true
