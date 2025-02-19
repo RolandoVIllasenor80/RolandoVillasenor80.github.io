@@ -26,7 +26,7 @@ description              : "Testing website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "assets/images/csm_Kalkkoegel-Panorama_Pietersteiner_web_4f99316b4b.jpg"
+teaser                   : "/assets/images/csm_Kalkkoegel-Panorama_Pietersteiner_web_4f99316b4b.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
@@ -321,6 +321,8 @@ defaults:
       type: posts
     values:
       layout: single
+      header:
+        image: "/assets/images/csm_Kalkkoegel-Panorama_Pietersteiner_web_4f99316b4b.jpg"
       author_profile: true
       read_time: true
       comments: # true
