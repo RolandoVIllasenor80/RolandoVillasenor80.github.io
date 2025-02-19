@@ -325,7 +325,7 @@ defaults:
       header:
         image: "/assets/images/web00035.jpg"
       author_profile: true
-      read_time: true
+      read_time: #true
       comments: # true
       share: true
       related: true
