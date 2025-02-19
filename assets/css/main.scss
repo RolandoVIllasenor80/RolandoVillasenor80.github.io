@@ -3,6 +3,12 @@
 search: false
 ---
 
+.page__hero {
+    min-height: 70vh; /* Adjust based on preference */
+    background-size: cover;
+    background-position: center;
+} 
+
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
